@@ -1305,7 +1305,7 @@ fieldset {
 
 @-webkit-keyframes move-horizontal {
   /* line 2, ../sass/animations/_rotate.scss */
-  0% {
+  0%, 100% {
     z-index: 10;
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
@@ -1315,11 +1315,11 @@ fieldset {
 
   /* line 6, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(75px, -10px) scale(0.8);
-    -moz-transform: translate(75px, -10px) scale(0.8);
-    -ms-transform: translate(75px, -10px) scale(0.8);
-    -o-transform: translate(75px, -10px) scale(0.8);
-    transform: translate(75px, -10px) scale(0.8); }
+    -webkit-transform: translate(80px, -10px) scale(0.8);
+    -moz-transform: translate(80px, -10px) scale(0.8);
+    -ms-transform: translate(80px, -10px) scale(0.8);
+    -o-transform: translate(80px, -10px) scale(0.8);
+    transform: translate(80px, -10px) scale(0.8); }
 
   /* line 9, ../sass/animations/_rotate.scss */
   50% {
@@ -1335,23 +1335,14 @@ fieldset {
 
   /* line 16, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(75px, 10px) scale(1.2);
-    -moz-transform: translate(75px, 10px) scale(1.2);
-    -ms-transform: translate(75px, 10px) scale(1.2);
-    -o-transform: translate(75px, 10px) scale(1.2);
-    transform: translate(75px, 10px) scale(1.2); }
-
-  /* line 19, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 10; } }
+    -webkit-transform: translate(80px, 10px) scale(1.2);
+    -moz-transform: translate(80px, 10px) scale(1.2);
+    -ms-transform: translate(80px, 10px) scale(1.2);
+    -o-transform: translate(80px, 10px) scale(1.2);
+    transform: translate(80px, 10px) scale(1.2); } }
 @-moz-keyframes move-horizontal {
   /* line 2, ../sass/animations/_rotate.scss */
-  0% {
+  0%, 100% {
     z-index: 10;
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
@@ -1361,11 +1352,11 @@ fieldset {
 
   /* line 6, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(75px, -10px) scale(0.8);
-    -moz-transform: translate(75px, -10px) scale(0.8);
-    -ms-transform: translate(75px, -10px) scale(0.8);
-    -o-transform: translate(75px, -10px) scale(0.8);
-    transform: translate(75px, -10px) scale(0.8); }
+    -webkit-transform: translate(80px, -10px) scale(0.8);
+    -moz-transform: translate(80px, -10px) scale(0.8);
+    -ms-transform: translate(80px, -10px) scale(0.8);
+    -o-transform: translate(80px, -10px) scale(0.8);
+    transform: translate(80px, -10px) scale(0.8); }
 
   /* line 9, ../sass/animations/_rotate.scss */
   50% {
@@ -1381,23 +1372,14 @@ fieldset {
 
   /* line 16, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(75px, 10px) scale(1.2);
-    -moz-transform: translate(75px, 10px) scale(1.2);
-    -ms-transform: translate(75px, 10px) scale(1.2);
-    -o-transform: translate(75px, 10px) scale(1.2);
-    transform: translate(75px, 10px) scale(1.2); }
-
-  /* line 19, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 10; } }
+    -webkit-transform: translate(80px, 10px) scale(1.2);
+    -moz-transform: translate(80px, 10px) scale(1.2);
+    -ms-transform: translate(80px, 10px) scale(1.2);
+    -o-transform: translate(80px, 10px) scale(1.2);
+    transform: translate(80px, 10px) scale(1.2); } }
 @-ms-keyframes move-horizontal {
   /* line 2, ../sass/animations/_rotate.scss */
-  0% {
+  0%, 100% {
     z-index: 10;
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
@@ -1407,11 +1389,11 @@ fieldset {
 
   /* line 6, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(75px, -10px) scale(0.8);
-    -moz-transform: translate(75px, -10px) scale(0.8);
-    -ms-transform: translate(75px, -10px) scale(0.8);
-    -o-transform: translate(75px, -10px) scale(0.8);
-    transform: translate(75px, -10px) scale(0.8); }
+    -webkit-transform: translate(80px, -10px) scale(0.8);
+    -moz-transform: translate(80px, -10px) scale(0.8);
+    -ms-transform: translate(80px, -10px) scale(0.8);
+    -o-transform: translate(80px, -10px) scale(0.8);
+    transform: translate(80px, -10px) scale(0.8); }
 
   /* line 9, ../sass/animations/_rotate.scss */
   50% {
@@ -1427,23 +1409,14 @@ fieldset {
 
   /* line 16, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(75px, 10px) scale(1.2);
-    -moz-transform: translate(75px, 10px) scale(1.2);
-    -ms-transform: translate(75px, 10px) scale(1.2);
-    -o-transform: translate(75px, 10px) scale(1.2);
-    transform: translate(75px, 10px) scale(1.2); }
-
-  /* line 19, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 10; } }
+    -webkit-transform: translate(80px, 10px) scale(1.2);
+    -moz-transform: translate(80px, 10px) scale(1.2);
+    -ms-transform: translate(80px, 10px) scale(1.2);
+    -o-transform: translate(80px, 10px) scale(1.2);
+    transform: translate(80px, 10px) scale(1.2); } }
 @-o-keyframes move-horizontal {
   /* line 2, ../sass/animations/_rotate.scss */
-  0% {
+  0%, 100% {
     z-index: 10;
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
@@ -1453,11 +1426,11 @@ fieldset {
 
   /* line 6, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(75px, -10px) scale(0.8);
-    -moz-transform: translate(75px, -10px) scale(0.8);
-    -ms-transform: translate(75px, -10px) scale(0.8);
-    -o-transform: translate(75px, -10px) scale(0.8);
-    transform: translate(75px, -10px) scale(0.8); }
+    -webkit-transform: translate(80px, -10px) scale(0.8);
+    -moz-transform: translate(80px, -10px) scale(0.8);
+    -ms-transform: translate(80px, -10px) scale(0.8);
+    -o-transform: translate(80px, -10px) scale(0.8);
+    transform: translate(80px, -10px) scale(0.8); }
 
   /* line 9, ../sass/animations/_rotate.scss */
   50% {
@@ -1473,23 +1446,14 @@ fieldset {
 
   /* line 16, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(75px, 10px) scale(1.2);
-    -moz-transform: translate(75px, 10px) scale(1.2);
-    -ms-transform: translate(75px, 10px) scale(1.2);
-    -o-transform: translate(75px, 10px) scale(1.2);
-    transform: translate(75px, 10px) scale(1.2); }
-
-  /* line 19, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 10; } }
+    -webkit-transform: translate(80px, 10px) scale(1.2);
+    -moz-transform: translate(80px, 10px) scale(1.2);
+    -ms-transform: translate(80px, 10px) scale(1.2);
+    -o-transform: translate(80px, 10px) scale(1.2);
+    transform: translate(80px, 10px) scale(1.2); } }
 @keyframes move-horizontal {
   /* line 2, ../sass/animations/_rotate.scss */
-  0% {
+  0%, 100% {
     z-index: 10;
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
@@ -1499,11 +1463,11 @@ fieldset {
 
   /* line 6, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(75px, -10px) scale(0.8);
-    -moz-transform: translate(75px, -10px) scale(0.8);
-    -ms-transform: translate(75px, -10px) scale(0.8);
-    -o-transform: translate(75px, -10px) scale(0.8);
-    transform: translate(75px, -10px) scale(0.8); }
+    -webkit-transform: translate(80px, -10px) scale(0.8);
+    -moz-transform: translate(80px, -10px) scale(0.8);
+    -ms-transform: translate(80px, -10px) scale(0.8);
+    -o-transform: translate(80px, -10px) scale(0.8);
+    transform: translate(80px, -10px) scale(0.8); }
 
   /* line 9, ../sass/animations/_rotate.scss */
   50% {
@@ -1519,23 +1483,14 @@ fieldset {
 
   /* line 16, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(75px, 10px) scale(1.2);
-    -moz-transform: translate(75px, 10px) scale(1.2);
-    -ms-transform: translate(75px, 10px) scale(1.2);
-    -o-transform: translate(75px, 10px) scale(1.2);
-    transform: translate(75px, 10px) scale(1.2); }
-
-  /* line 19, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 10; } }
+    -webkit-transform: translate(80px, 10px) scale(1.2);
+    -moz-transform: translate(80px, 10px) scale(1.2);
+    -ms-transform: translate(80px, 10px) scale(1.2);
+    -o-transform: translate(80px, 10px) scale(1.2);
+    transform: translate(80px, 10px) scale(1.2); } }
 @-webkit-keyframes move-horizontal-reverse {
-  /* line 26, ../sass/animations/_rotate.scss */
-  0% {
+  /* line 22, ../sass/animations/_rotate.scss */
+  0%, 100% {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -1543,15 +1498,15 @@ fieldset {
     transform: translate(0, 0) scale(1);
     z-index: 100; }
 
-  /* line 30, ../sass/animations/_rotate.scss */
+  /* line 26, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(-75px, 10px) scale(1.2);
-    -moz-transform: translate(-75px, 10px) scale(1.2);
-    -ms-transform: translate(-75px, 10px) scale(1.2);
-    -o-transform: translate(-75px, 10px) scale(1.2);
-    transform: translate(-75px, 10px) scale(1.2); }
+    -webkit-transform: translate(-80px, 10px) scale(1.2);
+    -moz-transform: translate(-80px, 10px) scale(1.2);
+    -ms-transform: translate(-80px, 10px) scale(1.2);
+    -o-transform: translate(-80px, 10px) scale(1.2);
+    transform: translate(-80px, 10px) scale(1.2); }
 
-  /* line 33, ../sass/animations/_rotate.scss */
+  /* line 29, ../sass/animations/_rotate.scss */
   50% {
     -webkit-transform: translate(-150px, 0) scale(1);
     -moz-transform: translate(-150px, 0) scale(1);
@@ -1559,29 +1514,20 @@ fieldset {
     -o-transform: translate(-150px, 0) scale(1);
     transform: translate(-150px, 0) scale(1); }
 
-  /* line 36, ../sass/animations/_rotate.scss */
+  /* line 32, ../sass/animations/_rotate.scss */
   70% {
     z-index: 10; }
 
-  /* line 39, ../sass/animations/_rotate.scss */
+  /* line 35, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(-75px, -10px) scale(0.8);
-    -moz-transform: translate(-75px, -10px) scale(0.8);
-    -ms-transform: translate(-75px, -10px) scale(0.8);
-    -o-transform: translate(-75px, -10px) scale(0.8);
-    transform: translate(-75px, -10px) scale(0.8); }
-
-  /* line 42, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 100; } }
+    -webkit-transform: translate(-80px, -10px) scale(0.8);
+    -moz-transform: translate(-80px, -10px) scale(0.8);
+    -ms-transform: translate(-80px, -10px) scale(0.8);
+    -o-transform: translate(-80px, -10px) scale(0.8);
+    transform: translate(-80px, -10px) scale(0.8); } }
 @-moz-keyframes move-horizontal-reverse {
-  /* line 26, ../sass/animations/_rotate.scss */
-  0% {
+  /* line 22, ../sass/animations/_rotate.scss */
+  0%, 100% {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -1589,15 +1535,15 @@ fieldset {
     transform: translate(0, 0) scale(1);
     z-index: 100; }
 
-  /* line 30, ../sass/animations/_rotate.scss */
+  /* line 26, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(-75px, 10px) scale(1.2);
-    -moz-transform: translate(-75px, 10px) scale(1.2);
-    -ms-transform: translate(-75px, 10px) scale(1.2);
-    -o-transform: translate(-75px, 10px) scale(1.2);
-    transform: translate(-75px, 10px) scale(1.2); }
+    -webkit-transform: translate(-80px, 10px) scale(1.2);
+    -moz-transform: translate(-80px, 10px) scale(1.2);
+    -ms-transform: translate(-80px, 10px) scale(1.2);
+    -o-transform: translate(-80px, 10px) scale(1.2);
+    transform: translate(-80px, 10px) scale(1.2); }
 
-  /* line 33, ../sass/animations/_rotate.scss */
+  /* line 29, ../sass/animations/_rotate.scss */
   50% {
     -webkit-transform: translate(-150px, 0) scale(1);
     -moz-transform: translate(-150px, 0) scale(1);
@@ -1605,29 +1551,20 @@ fieldset {
     -o-transform: translate(-150px, 0) scale(1);
     transform: translate(-150px, 0) scale(1); }
 
-  /* line 36, ../sass/animations/_rotate.scss */
+  /* line 32, ../sass/animations/_rotate.scss */
   70% {
     z-index: 10; }
 
-  /* line 39, ../sass/animations/_rotate.scss */
+  /* line 35, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(-75px, -10px) scale(0.8);
-    -moz-transform: translate(-75px, -10px) scale(0.8);
-    -ms-transform: translate(-75px, -10px) scale(0.8);
-    -o-transform: translate(-75px, -10px) scale(0.8);
-    transform: translate(-75px, -10px) scale(0.8); }
-
-  /* line 42, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 100; } }
+    -webkit-transform: translate(-80px, -10px) scale(0.8);
+    -moz-transform: translate(-80px, -10px) scale(0.8);
+    -ms-transform: translate(-80px, -10px) scale(0.8);
+    -o-transform: translate(-80px, -10px) scale(0.8);
+    transform: translate(-80px, -10px) scale(0.8); } }
 @-ms-keyframes move-horizontal-reverse {
-  /* line 26, ../sass/animations/_rotate.scss */
-  0% {
+  /* line 22, ../sass/animations/_rotate.scss */
+  0%, 100% {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -1635,15 +1572,15 @@ fieldset {
     transform: translate(0, 0) scale(1);
     z-index: 100; }
 
-  /* line 30, ../sass/animations/_rotate.scss */
+  /* line 26, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(-75px, 10px) scale(1.2);
-    -moz-transform: translate(-75px, 10px) scale(1.2);
-    -ms-transform: translate(-75px, 10px) scale(1.2);
-    -o-transform: translate(-75px, 10px) scale(1.2);
-    transform: translate(-75px, 10px) scale(1.2); }
+    -webkit-transform: translate(-80px, 10px) scale(1.2);
+    -moz-transform: translate(-80px, 10px) scale(1.2);
+    -ms-transform: translate(-80px, 10px) scale(1.2);
+    -o-transform: translate(-80px, 10px) scale(1.2);
+    transform: translate(-80px, 10px) scale(1.2); }
 
-  /* line 33, ../sass/animations/_rotate.scss */
+  /* line 29, ../sass/animations/_rotate.scss */
   50% {
     -webkit-transform: translate(-150px, 0) scale(1);
     -moz-transform: translate(-150px, 0) scale(1);
@@ -1651,29 +1588,20 @@ fieldset {
     -o-transform: translate(-150px, 0) scale(1);
     transform: translate(-150px, 0) scale(1); }
 
-  /* line 36, ../sass/animations/_rotate.scss */
+  /* line 32, ../sass/animations/_rotate.scss */
   70% {
     z-index: 10; }
 
-  /* line 39, ../sass/animations/_rotate.scss */
+  /* line 35, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(-75px, -10px) scale(0.8);
-    -moz-transform: translate(-75px, -10px) scale(0.8);
-    -ms-transform: translate(-75px, -10px) scale(0.8);
-    -o-transform: translate(-75px, -10px) scale(0.8);
-    transform: translate(-75px, -10px) scale(0.8); }
-
-  /* line 42, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 100; } }
+    -webkit-transform: translate(-80px, -10px) scale(0.8);
+    -moz-transform: translate(-80px, -10px) scale(0.8);
+    -ms-transform: translate(-80px, -10px) scale(0.8);
+    -o-transform: translate(-80px, -10px) scale(0.8);
+    transform: translate(-80px, -10px) scale(0.8); } }
 @-o-keyframes move-horizontal-reverse {
-  /* line 26, ../sass/animations/_rotate.scss */
-  0% {
+  /* line 22, ../sass/animations/_rotate.scss */
+  0%, 100% {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -1681,15 +1609,15 @@ fieldset {
     transform: translate(0, 0) scale(1);
     z-index: 100; }
 
-  /* line 30, ../sass/animations/_rotate.scss */
+  /* line 26, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(-75px, 10px) scale(1.2);
-    -moz-transform: translate(-75px, 10px) scale(1.2);
-    -ms-transform: translate(-75px, 10px) scale(1.2);
-    -o-transform: translate(-75px, 10px) scale(1.2);
-    transform: translate(-75px, 10px) scale(1.2); }
+    -webkit-transform: translate(-80px, 10px) scale(1.2);
+    -moz-transform: translate(-80px, 10px) scale(1.2);
+    -ms-transform: translate(-80px, 10px) scale(1.2);
+    -o-transform: translate(-80px, 10px) scale(1.2);
+    transform: translate(-80px, 10px) scale(1.2); }
 
-  /* line 33, ../sass/animations/_rotate.scss */
+  /* line 29, ../sass/animations/_rotate.scss */
   50% {
     -webkit-transform: translate(-150px, 0) scale(1);
     -moz-transform: translate(-150px, 0) scale(1);
@@ -1697,29 +1625,20 @@ fieldset {
     -o-transform: translate(-150px, 0) scale(1);
     transform: translate(-150px, 0) scale(1); }
 
-  /* line 36, ../sass/animations/_rotate.scss */
+  /* line 32, ../sass/animations/_rotate.scss */
   70% {
     z-index: 10; }
 
-  /* line 39, ../sass/animations/_rotate.scss */
+  /* line 35, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(-75px, -10px) scale(0.8);
-    -moz-transform: translate(-75px, -10px) scale(0.8);
-    -ms-transform: translate(-75px, -10px) scale(0.8);
-    -o-transform: translate(-75px, -10px) scale(0.8);
-    transform: translate(-75px, -10px) scale(0.8); }
-
-  /* line 42, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 100; } }
+    -webkit-transform: translate(-80px, -10px) scale(0.8);
+    -moz-transform: translate(-80px, -10px) scale(0.8);
+    -ms-transform: translate(-80px, -10px) scale(0.8);
+    -o-transform: translate(-80px, -10px) scale(0.8);
+    transform: translate(-80px, -10px) scale(0.8); } }
 @keyframes move-horizontal-reverse {
-  /* line 26, ../sass/animations/_rotate.scss */
-  0% {
+  /* line 22, ../sass/animations/_rotate.scss */
+  0%, 100% {
     -webkit-transform: translate(0, 0) scale(1);
     -moz-transform: translate(0, 0) scale(1);
     -ms-transform: translate(0, 0) scale(1);
@@ -1727,15 +1646,15 @@ fieldset {
     transform: translate(0, 0) scale(1);
     z-index: 100; }
 
-  /* line 30, ../sass/animations/_rotate.scss */
+  /* line 26, ../sass/animations/_rotate.scss */
   25% {
-    -webkit-transform: translate(-75px, 10px) scale(1.2);
-    -moz-transform: translate(-75px, 10px) scale(1.2);
-    -ms-transform: translate(-75px, 10px) scale(1.2);
-    -o-transform: translate(-75px, 10px) scale(1.2);
-    transform: translate(-75px, 10px) scale(1.2); }
+    -webkit-transform: translate(-80px, 10px) scale(1.2);
+    -moz-transform: translate(-80px, 10px) scale(1.2);
+    -ms-transform: translate(-80px, 10px) scale(1.2);
+    -o-transform: translate(-80px, 10px) scale(1.2);
+    transform: translate(-80px, 10px) scale(1.2); }
 
-  /* line 33, ../sass/animations/_rotate.scss */
+  /* line 29, ../sass/animations/_rotate.scss */
   50% {
     -webkit-transform: translate(-150px, 0) scale(1);
     -moz-transform: translate(-150px, 0) scale(1);
@@ -1743,52 +1662,43 @@ fieldset {
     -o-transform: translate(-150px, 0) scale(1);
     transform: translate(-150px, 0) scale(1); }
 
-  /* line 36, ../sass/animations/_rotate.scss */
+  /* line 32, ../sass/animations/_rotate.scss */
   70% {
     z-index: 10; }
 
-  /* line 39, ../sass/animations/_rotate.scss */
+  /* line 35, ../sass/animations/_rotate.scss */
   75% {
-    -webkit-transform: translate(-75px, -10px) scale(0.8);
-    -moz-transform: translate(-75px, -10px) scale(0.8);
-    -ms-transform: translate(-75px, -10px) scale(0.8);
-    -o-transform: translate(-75px, -10px) scale(0.8);
-    transform: translate(-75px, -10px) scale(0.8); }
-
-  /* line 42, ../sass/animations/_rotate.scss */
-  100% {
-    -webkit-transform: translate(0, 0) scale(1);
-    -moz-transform: translate(0, 0) scale(1);
-    -ms-transform: translate(0, 0) scale(1);
-    -o-transform: translate(0, 0) scale(1);
-    transform: translate(0, 0) scale(1);
-    z-index: 100; } }
-/* line 48, ../sass/animations/_rotate.scss */
+    -webkit-transform: translate(-80px, -10px) scale(0.8);
+    -moz-transform: translate(-80px, -10px) scale(0.8);
+    -ms-transform: translate(-80px, -10px) scale(0.8);
+    -o-transform: translate(-80px, -10px) scale(0.8);
+    transform: translate(-80px, -10px) scale(0.8); } }
+/* line 41, ../sass/animations/_rotate.scss */
 .rotate {
   position: relative;
   width: 200px;
   height: 200px;
   margin: 100px auto; }
-  /* line 54, ../sass/animations/_rotate.scss */
+  /* line 47, ../sass/animations/_rotate.scss */
   .rotate .circle {
     position: absolute;
     top: 0; }
-    /* line 58, ../sass/animations/_rotate.scss */
+    /* line 51, ../sass/animations/_rotate.scss */
     .rotate .circle.left {
       left: 0;
-      -webkit-animation: move-horizontal 2s infinite linear;
-      -moz-animation: move-horizontal 2s infinite linear;
-      -ms-animation: move-horizontal 2s infinite linear;
-      -o-animation: move-horizontal 2s infinite linear;
-      animation: move-horizontal 2s infinite linear; }
-    /* line 63, ../sass/animations/_rotate.scss */
+      -webkit-animation: move-horizontal 1s infinite linear;
+      -moz-animation: move-horizontal 1s infinite linear;
+      -ms-animation: move-horizontal 1s infinite linear;
+      -o-animation: move-horizontal 1s infinite linear;
+      animation: move-horizontal 1s infinite linear; }
+    /* line 56, ../sass/animations/_rotate.scss */
     .rotate .circle.right {
       right: 0;
-      -webkit-animation: move-horizontal-reverse 2s infinite linear;
-      -moz-animation: move-horizontal-reverse 2s infinite linear;
-      -ms-animation: move-horizontal-reverse 2s infinite linear;
-      -o-animation: move-horizontal-reverse 2s infinite linear;
-      animation: move-horizontal-reverse 2s infinite linear; }
+      -webkit-animation: move-horizontal-reverse 1s infinite linear;
+      -moz-animation: move-horizontal-reverse 1s infinite linear;
+      -ms-animation: move-horizontal-reverse 1s infinite linear;
+      -o-animation: move-horizontal-reverse 1s infinite linear;
+      animation: move-horizontal-reverse 1s infinite linear; }
 
 /* line 11, ../sass/main.scss */
 html,

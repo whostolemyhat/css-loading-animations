@@ -1,10 +1,10 @@
 @include keyframes(move-horizontal) {
-    0% {
+    0%, 100% {
         z-index: 10;
         @include transform(translate(0, 0) scale(1));
     }
     25% {
-        @include transform(translate(75px, -10px) scale(0.8));
+        @include transform(translate(80px, -10px) scale(0.8));
     }
     50% {
         // 150 = width of container - width of circle
@@ -14,21 +14,17 @@
         z-index: 100;
     }
     75% {
-        @include transform(translate(75px, 10px) scale(1.2));
-    }
-    100% {
-        @include transform(translate(0, 0) scale(1));
-        z-index: 10;
+        @include transform(translate(80px, 10px) scale(1.2));
     }
 }
 
 @include keyframes(move-horizontal-reverse) {
-    0% {
+    0%, 100% {
         @include transform(translate(0, 0) scale(1));
         z-index: 100;
     }
     25% {
-        @include transform(translate(-75px, 10px) scale(1.2));
+        @include transform(translate(-80px, 10px) scale(1.2));
     }
     50% {
         @include transform(translate(-150px, 0) scale(1));
@@ -37,13 +33,10 @@
         z-index: 10;
     }
     75% {
-        @include transform(translate(-75px, -10px) scale(0.8));
-    }
-    100% {
-        @include transform(translate(0, 0) scale(1));
-        z-index: 100;
+        @include transform(translate(-80px, -10px) scale(0.8));
     }
 }
+
 
 .rotate {
     position: relative;
@@ -57,12 +50,12 @@
 
         &.left{
             left: 0;
-            @include animation(move-horizontal 2s infinite linear);
+            @include animation(move-horizontal 1s infinite linear);
         }
 
         &.right {
             right: 0;
-            @include animation(move-horizontal-reverse 2s infinite linear);
+            @include animation(move-horizontal-reverse 1s infinite linear);
         }
     }
 }
