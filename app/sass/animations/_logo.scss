@@ -1,0 +1,158 @@
+@include keyframes(batman) {
+    0%, 100% {
+        @include transform(scale(0) rotate(0deg))
+    }
+
+    25% {
+        @include transform(scale(0.8) rotate(360deg))
+    }
+
+    45% {
+        @include transform(scale(1) rotate(720deg))
+    }
+
+    50% {
+        @include transform(scale(1.1) rotate(720deg))
+    }
+
+    55% {
+        @include transform(scale(1) rotate(720deg))
+    }
+
+    75% {
+        @include transform(scale(0.8) rotate(360deg))
+    }
+}
+
+@include keyframes(random-rotate) {
+    0% {
+        @include transform(rotate(0deg));
+    }
+
+    20% {
+        @include transform(rotate(90deg));
+    }
+
+    40% {
+        @include transform(rotate(0deg));
+    }
+
+    60% {
+        @include transform(rotate(180deg));
+    }
+
+    80% {
+        @include transform(rotate(300deg));
+    }
+}
+
+@include keyframes(random-rotate-2) {
+    0% {
+        @include transform(rotate(0deg));
+    }
+
+    20% {
+        @include transform(rotate(75deg));
+    }
+
+    40% {
+        @include transform(rotate(150deg));
+    }
+
+    60% {
+        @include transform(rotate(225deg));
+    }
+
+    80% {
+        @include transform(rotate(300deg));
+    }
+
+    100% {
+        @include transform(rotate(360deg));
+    }
+}
+
+@include keyframes(random-rotate-3) {
+    0% {
+        @include transform(rotate(0deg));
+    }
+
+    10% {
+        @include transform(rotate(-36deg));
+    }
+
+    20% {
+        @include transform(rotate(-72deg));
+    }
+
+    30% {
+        @include transform(rotate(-108deg));
+    }
+
+    40% {
+        @include transform(rotate(-144deg));
+    }
+
+    50% {
+        @include transform(rotate(-180deg));
+    }
+
+    60% {
+        @include transform(rotate(-216deg));
+    }
+
+    70% {
+        @include transform(rotate(-256deg));
+    }
+
+    80% {
+        @include transform(rotate(-292deg));
+    }
+
+    90% {
+        @include transform(rotate(-324deg));
+    }
+
+    100% {
+        @include transform(rotate(-360deg));
+    }
+}
+
+.logo {
+    position: relative;
+    margin: 200px auto;
+    display: block;
+
+    @include animation(batman 2s infinite linear);
+}
+
+.logo-o {
+    position: relative;
+    margin: 100px auto;
+    display: block;
+    height: 25px;
+    width: 192px;
+    background: url('/img/logo-no-o.png') 0 0 no-repeat transparent;
+
+    img {
+        position: absolute;
+        top: 0;
+        display: block;
+        height: 25px;
+    }
+
+    .o-1 {
+        left: 21px;
+        @include animation(random-rotate 3s infinite ease-in-out);
+    }
+
+    .o-2 {
+        left: 120px;
+        @include animation(random-rotate-2 3s infinite alternate ease-in-out);
+    }
+
+    .o-3 {
+        left: 148px;
+        @include animation(random-rotate-3 3s infinite alternate ease-in-out);
+    }
+}

@@ -50,12 +50,12 @@
 
         &.left{
             left: 0;
-            @include animation(move-horizontal 1s infinite linear);
+            @include animation(move-horizontal 1.8s infinite linear);
         }
 
         &.right {
             right: 0;
-            @include animation(move-horizontal-reverse 1s infinite linear);
+            @include animation(move-horizontal-reverse 1.8s infinite linear);
         }
     }
 }
