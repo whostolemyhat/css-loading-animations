@@ -1,0 +1,113 @@
+// from http://jsbin.com/bahah/14/
+
+
+@include keyframes('rotate') {
+    0% { @include rotate(0deg) }
+    100% { @include rotate(360deg) }
+}
+
+@mixin move-rotates-circle($x) {
+  0% {
+    @include translate(0, 0);
+  }
+  40%,50% {
+    @include translate($x * 1.1, 0);
+  }
+  90%,100% {
+    @include translate(0,0);
+  }
+}
+
+@include keyframes('wobble') {
+    @include move-rotates-circle($size);
+}
+
+@include keyframes('wobble-1') {
+    @include move-rotates-circle($size / 2);
+}
+
+@include keyframes('wobble-2') {
+    @include move-rotates-circle($size / 4);
+}
+
+@include keyframes('wobble-3') {
+    @include move-rotates-circle($size / 5);
+}
+
+@include keyframes('wobble-4') {
+    @include move-rotates-circle($size / 7);
+}
+
+.loader {
+    position: relative;
+    width: $size * 4;
+    height: $size * 4;
+    margin: 100px auto;
+    @include transform-origin(50%, 50%);
+    @include animation(rotate 1s 0 infinite ease-in-out);
+
+    .row {
+        @include translate(0, 0);
+        @include transform-origin(0, 100%);
+        position: absolute;
+        right: $size;
+        top: -($size/2);
+
+        &.second {
+            @include rotate(72deg);
+        }
+        &.third {
+            @include rotate(144deg);
+        }
+        &.fourth {
+            @include rotate(216deg);
+        }
+        &.fifth {
+            @include rotate(290deg);
+        }
+    }
+
+    .circle {
+        &.medium {
+            @include animation(wobble-1 0.5s 0 infinite ease-in-out);
+        }
+
+        &.small {
+            @include animation(wobble-2 0.5s 0 infinite ease-in-out);
+        }
+
+        &.tiny {
+            @include animation(wobble-3 0.5s 0 infinite ease-in-out);
+        }
+    }
+
+    &.three-arm {
+        @include animation(rotate 1s 0 infinite linear);
+        .row {
+            &.second {
+                @include rotate(120deg);
+            }
+            &.third {
+                @include rotate(240deg);
+            }
+        }
+
+        .circle {
+            &.medium {
+                @include animation(none);
+            }
+
+            &.small {
+                @include animation(none);
+            }
+
+            &.tiny {
+                @include animation(none);
+            }
+        }
+
+    }
+
+        
+}
+

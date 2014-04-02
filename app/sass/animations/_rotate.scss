@@ -1,0 +1,68 @@
+@include keyframes(move-horizontal) {
+    0% {
+        z-index: 10;
+        @include transform(translate(0, 0) scale(1));
+    }
+    25% {
+        @include transform(translate(75px, -10px) scale(0.8));
+    }
+    50% {
+        // 150 = width of container - width of circle
+        @include transform(translate(150px, 0) scale(1));
+    }
+    70% {
+        z-index: 100;
+    }
+    75% {
+        @include transform(translate(75px, 10px) scale(1.2));
+    }
+    100% {
+        @include transform(translate(0, 0) scale(1));
+        z-index: 10;
+    }
+}
+
+@include keyframes(move-horizontal-reverse) {
+    0% {
+        @include transform(translate(0, 0) scale(1));
+        z-index: 100;
+    }
+    25% {
+        @include transform(translate(-75px, 10px) scale(1.2));
+    }
+    50% {
+        @include transform(translate(-150px, 0) scale(1));
+    }
+    70% {
+        z-index: 10;
+    }
+    75% {
+        @include transform(translate(-75px, -10px) scale(0.8));
+    }
+    100% {
+        @include transform(translate(0, 0) scale(1));
+        z-index: 100;
+    }
+}
+
+.rotate {
+    position: relative;
+    width: $size * 4;
+    height: $size * 4;
+    margin: 100px auto;
+
+    .circle {
+        position: absolute;
+        top: 0;
+
+        &.left{
+            left: 0;
+            @include animation(move-horizontal 2s infinite linear);
+        }
+
+        &.right {
+            right: 0;
+            @include animation(move-horizontal-reverse 2s infinite linear);
+        }
+    }
+}

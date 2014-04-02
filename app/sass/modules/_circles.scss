@@ -1,0 +1,40 @@
+.circle {
+    width: $size;
+    height: $size;
+    border-radius: 100%;
+
+    &.medium {
+        width: $size / 1.5;
+        height: $size / 1.5;
+    }
+
+    &.small {
+        width: $size / 2;
+        height: $size / 2;
+    }
+
+    &.tiny {
+        width: $size / 3;
+        height: $size / 3;
+    }
+}
+
+.blue {
+    background: #33B5E5;
+}
+
+.red {
+    background: #FF4444;
+}
+
+.purple {
+    background: #AA66CC;
+}
+
+.yellow {
+    background: #FFBB33;
+}
+
+.green {
+    background: #99CC00;
+}
